@@ -20,3 +20,7 @@
 
     sudo apt-get install gksu wget
     sudo apt-get update
+    git clone https://github.com/brandonberntsen/CCDC.git
+    cd CCDC/
+    chmod +x ubuntu-server-secure.sh
+    ./ubuntu-server-secure.sh
