@@ -1,5 +1,7 @@
 # CCDC
-
+    Guide for Bind9 http://www.servermom.org/how-to-install-and-setup-bind9-on-ubuntu-server/
+    
+    -Auto Hardening Script Options-
     Install and Configure UFW firewall;
     Secure shared memory;
     Disable SSH root login and change SSH default port;
@@ -17,7 +19,8 @@
     Analyze system logs using LogWatch;
     Install and configure SELinux;
     Install and configure Tiger security audit and intrusion tool.
-
+    
+    -Commands Ran in order-
     sudo apt-get install gksu wget
     sudo apt-get update
     git clone https://github.com/brandonberntsen/CCDC.git
